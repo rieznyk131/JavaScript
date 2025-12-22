@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+}
+
+.users-box {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 2fr);
+}
+
+.user-block {
+    height: 300px;
+    border: 1px solid darkgrey;
+    padding-left: 30px;
+}
+
+
